@@ -107,7 +107,6 @@ Part-1-Cybersecurity-Foundation/
 * Explain CIA Triad
 * Explain Threat, Vulnerability, and Risk
 * Compare Vulnerability Assessment vs Penetration Testing
-* Draw the complete VAPT Lifecycle
 
 ---
 
