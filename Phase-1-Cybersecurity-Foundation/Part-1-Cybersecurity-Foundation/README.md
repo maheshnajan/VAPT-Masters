@@ -47,26 +47,6 @@ After completing this part, I will be able to:
 
 ---
 
-# 🎥 Learning Resources
-
-### The Cyber Mentor (TCM Security)
-
-* Introduction
-* Setting Up Lab
-* Ethical Hacking Overview
-
-### NetworkChuck
-
-* What is Hacking?
-* Ethical Hacking Explained
-
-### David Bombal
-
-* Cybersecurity Career
-* What is VAPT?
-
----
-
 # 🛠️ Tools Used
 
 * VirtualBox / VMware
@@ -78,7 +58,6 @@ After completing this part, I will be able to:
 * Cisco Packet Tracer
 * Firefox
 * Google Chrome
-* Obsidian / Notion
 
 ---
 
@@ -118,24 +97,10 @@ Part-1-Cybersecurity-Foundation/
 ├── Notes.md
 ├── Commands.md
 ├── Assignment.md
-├── Diagrams/
-├── Screenshots/
-└── Resources/
 ```
 
 ---
 
-# 📸 Practical Evidence
-
-This folder includes:
-
-* Operating System Installation Screenshots
-* Command Outputs
-* Virtual Machine Screenshots
-* Network Configuration Screenshots
-* Diagrams created during learning
-
----
 
 # 📝 Assignment
 
@@ -164,15 +129,6 @@ Topics prepared in this section:
 ---
 
 # ✅ Completion Checklist
-
-* [ ] Watched all learning videos
-* [ ] Completed theory notes
-* [ ] Practiced Windows commands
-* [ ] Practiced Linux commands
-* [ ] Completed assignments
-* [ ] Created diagrams
-* [ ] Uploaded screenshots
-* [ ] Committed changes to GitHub
 
 ---
 
