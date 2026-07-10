@@ -1,7 +1,22 @@
+# Phase 1 - Cybersecurity Fundamentals & VAPT Introduction
 
-📘 What is Cybersecurity?
-Cybersecurity is the practice of protecting computer systems, networks, applications, cloud environments, data, and users from unauthorized access, cyber attacks, misuse, theft, and damage.
+---
 
+# What is Cybersecurity?
+
+## Definition
+
+Cybersecurity is the practice of protecting **computer systems, networks, applications, cloud environments, data, and users** from unauthorized access, cyber attacks, misuse, theft, and damage.
+
+**Simple Definition**
+
+> Cybersecurity is the practice of protecting digital assets from cyber threats.
+
+---
+
+## Cybersecurity Components
+
+```text
                 Cybersecurity
 
         Computer Systems
@@ -15,302 +30,659 @@ Cybersecurity is the practice of protecting computer systems, networks, applicat
               Data
                ↓
              Users
-               ↓
-      Protected Against
-──────────────────────────────────
-🔒 Unauthorized Access
-💥 Cyber Attacks
-🦠 Malware
-🕵️ Data Theft
-⚠️ Misuse
-🔥 Damage
-──────────────────────────────────
+```
 
-**Goals of Cybersecurity**
-🔒 Confidentiality – Ensure that only authorized users can access information.
-✅ Integrity – Ensure that data is accurate and cannot be altered without authorization.
-⚡ Availability – Ensure that systems and data are available whenever they are needed.
+---
 
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-**📘 Threat**
-Definition
-A Threat is anything that has the potential to exploit a vulnerability and cause harm to a computer system, network, application, data, or organization.
-Examples of Threats
-🦠 Malware – Viruses, worms, ransomware, spyware, and trojans that can damage or steal data.
-👨‍💻 Hackers – Individuals or groups attempting unauthorized access to systems.
-👤 Insider Threats – Employees or trusted users who intentionally or accidentally cause security incidents.
-🔥 Fire – Physical disasters that can damage servers, computers, and data centers.
-🌊 Flood – Natural disasters that can destroy IT infrastructure and lead to data loss.
+## Protects Against
 
-Threat Flow-- 
+- Unauthorized Access
+- Cyber Attacks
+- Malware
+- Data Theft
+- Misuse
+- Damage
+
+---
+
+## Goals of Cybersecurity (CIA Triad)
+
+### 1. Confidentiality (C)
+
+Only authorized users can access information.
+
+### 2. Integrity (I)
+
+Ensure data remains accurate and cannot be modified without authorization.
+
+### 3. Availability (A)
+
+Ensure systems and data are available whenever required.
+
+---
+
+## Interview Definition
+
+> Cybersecurity is the practice of protecting computer systems, networks, applications, cloud infrastructure, data, and users from unauthorized access, cyber attacks, misuse, theft, and damage.
+
+---
+
+# Threat
+
+## Definition
+
+A Threat is anything that has the potential to exploit a vulnerability and cause harm.
+
+**Simple Definition**
+
+> A threat is anything that can harm your system.
+
+---
+
+## Examples
+
+- Malware
+- Hackers
+- Insider Threats
+- Fire
+- Flood
+- Phishing
+- Power Failure
+
+---
+
+## Flow
+
+```text
 Threat
    ↓
-Attempts to Exploit
+Exploits
    ↓
 Vulnerability
    ↓
-Can Cause
+Causes
    ↓
-Damage, Data Loss, Service Disruption,
-Financial Loss, or Unauthorized Access
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-**📘 Vulnerability**
-Definition
-A Vulnerability is a weakness or flaw in a system, network, application, process, or configuration that can be exploited by a threat to compromise security.
+Damage
+```
 
-Examples of Vulnerabilities
-🔑 Weak Passwords – Easy-to-guess passwords that can be cracked or guessed.
-📦 Outdated Software – Software with known security flaws that have not been patched.
-💉 SQL Injection – An application vulnerability that allows attackers to manipulate database queries.
-🚪 Open Ports – Unnecessary or exposed network ports that increase the attack surface.
-❌ Misconfigured Servers – Incorrect security settings that expose sensitive resources.
-📂 Excessive Permissions – Users or applications having more privileges than required.
+---
 
-Vulnerability Flow
+## Interview Definition
+
+> A threat is any person, event, or circumstance capable of causing harm to an organization's assets.
+
+---
+
+# Vulnerability
+
+## Definition
+
+A Vulnerability is a weakness or flaw that can be exploited by a threat.
+
+**Simple Definition**
+
+> A vulnerability is a weakness in a system.
+
+---
+
+## Examples
+
+- Weak Password
+- Outdated Software
+- SQL Injection
+- Open Ports
+- Misconfiguration
+- Excessive Permissions
+
+---
+
+## Flow
+
+```text
 Vulnerability
       ↓
-Weakness in the System
+Weakness
       ↓
-Can Be Exploited By
+Exploited By
       ↓
 Threat
-      ↓
-Results In
-      ↓
-Unauthorized Access, Data Theft,
-System Compromise, or Service Disruption
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-**📘 Risk**
-Definition
-Risk is the possibility that a threat will exploit a vulnerability and cause damage to an organization, system, or data.
+```
 
-Risk Formula
+---
+
+## Interview Definition
+
+> A vulnerability is a weakness in a system, network, application, or process that can be exploited by a threat.
+
+---
+
+# Risk
+
+## Definition
+
+Risk is the possibility that a threat will exploit a vulnerability and cause damage.
+
+**Simple Definition**
+
+> Risk is the chance of loss or damage.
+
+---
+
+## Formula
+
+```text
 Threat
    +
 Vulnerability
    =
 Risk
+```
 
-A risk exists only when both a threat and a vulnerability are present.
+---
 
-Example
-Vulnerability
-🔑 Weak Password
-        +
+## Example
+
+```text
+Weak Password
+      +
+Attacker
+      =
+Account Compromise
+```
+
+---
+
+## Interview Definition
+
+> Risk is the likelihood that a threat will exploit a vulnerability and cause harm.
+
+---
+
+# Asset
+
+## Definition
+
+An Asset is anything valuable that needs protection.
+
+**Simple Definition**
+
+> Anything valuable.
+
+---
+
+## Examples
+
+- Server
+- Database
+- Laptop
+- Website
+- Employees
+- Cloud
+- Data
+- Email System
+
+---
+
+## Interview Definition
+
+> An asset is any valuable resource that must be protected.
+
+---
+
+# Exploit
+
+## Definition
+
+An Exploit is code or a technique used to take advantage of a vulnerability.
+
+**Simple Definition**
+
+> An exploit is the method used to exploit a vulnerability.
+
+---
+
+## Examples
+
+- SQL Injection Exploit
+- XSS Exploit
+- RCE Exploit
+- Buffer Overflow Exploit
+- Directory Traversal Exploit
+
+---
+
+## Interview Definition
+
+> An exploit is code or a technique that leverages a vulnerability to compromise a system.
+
+---
+
+# Payload
+
+## Definition
+
+A Payload is the malicious code executed after successful exploitation.
+
+**Simple Definition**
+
+> The actual malicious code executed after exploitation.
+
+---
+
+## Examples
+
+- Reverse Shell
+- Ransomware
+- Keylogger
+- Data Stealer
+- RAT
+
+---
+
+## Interview Definition
+
+> A payload is the malicious code delivered after an exploit successfully compromises a target.
+
+---
+
+# Security Controls
+
+## Definition
+
+Security Controls are safeguards implemented to protect assets and reduce security risks.
+
+---
+
+# Types of Security Controls
+
+## 1. Administrative Controls
+
+Examples
+
+- Policies
+- Procedures
+- Awareness
+- Security Training
+- Password Policy
+- Incident Response Plan
+
+---
+
+## 2. Physical Controls
+
+Examples
+
+- Locks
+- CCTV
+- Biometrics
+- Security Guards
+- ID Cards
+
+---
+
+## 3. Technical Controls
+
+Examples
+
+- Firewall
+- IDS
+- IPS
+- Antivirus
+- MFA
+- Encryption
+- VPN
+- WAF
+- SIEM
+
+---
+
+## Security Controls Diagram
+
+```text
+Security Controls
+
+├── Administrative
+│     ├── Policies
+│     ├── Procedures
+│     ├── Training
+│     └── Awareness
+│
+├── Physical
+│     ├── Locks
+│     ├── CCTV
+│     ├── Biometrics
+│     └── Security Guards
+│
+└── Technical
+      ├── Firewall
+      ├── IDS
+      ├── IPS
+      ├── Antivirus
+      ├── MFA
+      ├── Encryption
+      ├── VPN
+      ├── WAF
+      └── SIEM
+```
+
+---
+
+# Types of Hackers
+
+## White Hat
+
+- Authorized
+- Ethical
+- Improves security
+- Performs Penetration Testing
+
+---
+
+## Gray Hat
+
+- Unauthorized
+- Usually not malicious
+- Reports vulnerabilities after discovery
+
+---
+
+## Black Hat
+
+- Unauthorized
+- Malicious
+- Data Theft
+- Financial Gain
+- Ransomware
+
+---
+
+## Script Kiddie
+
+- Uses existing tools
+- Limited knowledge
+- Relies on public exploits
+
+---
+
+## Hacktivist
+
+- Political or Social Motivation
+- Website Defacement
+- Data Leaks
+
+---
+
+## Nation-State
+
+- Government Sponsored
+- Cyber Espionage
+- Cyber Warfare
+- Intelligence Gathering
+
+---
+
+## Insider
+
+- Employee or Trusted User
+- Intentional or Accidental Threat
+
+---
+
+## Hacker Comparison
+
+| Type | Permission | Intent |
+|-------|------------|--------|
+| White Hat | Authorized | Ethical |
+| Gray Hat | Unauthorized | Usually Non-Malicious |
+| Black Hat | Unauthorized | Malicious |
+| Script Kiddie | Unauthorized | Limited Knowledge |
+| Hacktivist | Unauthorized | Political/Social |
+| Nation-State | Government Sponsored | Cyber Warfare |
+| Insider | Legitimate Access | Malicious or Accidental |
+
+---
+
+# What is VAPT?
+
+## Definition
+
+VAPT (Vulnerability Assessment and Penetration Testing) is the process of identifying, validating, and helping remediate security vulnerabilities.
+
+**Simple Definition**
+
+> Find vulnerabilities and verify whether they can be exploited.
+
+---
+
+## Objectives
+
+- Identify vulnerabilities
+- Assess severity
+- Validate exploitability
+- Reduce risk
+- Recommend remediation
+
+---
+
+## Interview Definition
+
+> VAPT is a security assessment process that combines Vulnerability Assessment and Penetration Testing to identify, validate, and remediate security weaknesses.
+
+---
+
+# Vulnerability Assessment vs Penetration Testing
+
+| Vulnerability Assessment | Penetration Testing |
+|---------------------------|---------------------|
+| Finds vulnerabilities | Exploits vulnerabilities |
+| Mostly Automated | Manual + Automated |
+| No Exploitation | Exploitation Performed |
+| Produces Vulnerability List | Demonstrates Business Impact |
+
+---
+
+# VAPT Lifecycle
+
+```text
+Planning & Scope
+        ↓
+Reconnaissance
+        ↓
+Scanning & Enumeration
+        ↓
+Vulnerability Assessment
+        ↓
+Exploitation
+        ↓
+Post Exploitation
+        ↓
+Reporting
+        ↓
+Remediation
+        ↓
+Re-Testing
+```
+
+---
+
+## Lifecycle Phases
+
+1. Planning & Scope
+2. Information Gathering
+3. Scanning
+4. Vulnerability Assessment
+5. Exploitation
+6. Post Exploitation
+7. Reporting
+8. Remediation
+9. Re-Testing
+
+---
+
+# Types of Penetration Testing
+
+## Black Box
+
+- No prior knowledge
+- Simulates external attacker
+
+---
+
+## White Box
+
+- Complete knowledge
+- Source Code
+- Credentials
+- Network Architecture
+
+---
+
+## Gray Box
+
+- Partial knowledge
+- Simulates authenticated user
+
+---
+
+## Comparison
+
+| Type | Knowledge |
+|------|-----------|
+| Black Box | None |
+| White Box | Complete |
+| Gray Box | Partial |
+
+---
+
+# VAPT Methodologies
+
+## OWASP WSTG
+
+Used for Web Application Security Testing.
+
+---
+
+## PTES
+
+Penetration Testing Execution Standard.
+
+Phases
+
+- Pre-Engagement
+- Intelligence Gathering
+- Threat Modeling
+- Vulnerability Analysis
+- Exploitation
+- Post Exploitation
+- Reporting
+
+---
+
+## NIST SP 800-115
+
+Technical Guide for Security Testing.
+
+---
+
+## OSSTMM
+
+Open Source Security Testing Methodology Manual.
+
+Focus
+
+- Network
+- Wireless
+- Physical
+- Human Security
+
+---
+
+## MITRE ATT&CK
+
+Knowledge base of attacker tactics and techniques used for:
+
+- Threat Hunting
+- Detection Engineering
+- Purple Teaming
+- Incident Response
+
+---
+
+# Complete Security Flow
+
+```text
+Asset
+   ↓
 Threat
-👨‍💻 Attacker  =     Risk
-🚨 Account Compromise
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-**📘 Asset**
-Definition
-An Asset is anything that has value to an individual or organization and needs to be protected from threats and attacks.
-
-Examples of Assets
-🖥️ Server
-🗄️ Database
-💻 Laptop
-🌐 Website
-👨‍💼 Employees
-📱 Mobile Devices
-☁️ Cloud Resources
-📂 Sensitive Data
-📧 Email Systems
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-**📘 Exploit**
-Definition
-An Exploit is a piece of code, script, or technique that takes advantage of a vulnerability to perform unauthorized actions or gain access to a system.
-
-Examples
-💉 SQL Injection Exploit
-🖥️ Remote Code Execution (RCE) Exploit
-🌐 Cross-Site Scripting (XSS) Exploit
-📂 Directory Traversal Exploit
-🔓 Buffer Overflow Exploit
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-**📘 Payload**
-Definition
-A Payload is the malicious code or action that is executed after a successful exploit.
-
-Examples
-🦠 Ransomware
-🐚 Reverse Shell
-📂 Data Stealer
-🕵️ Keylogger
-💣 Remote Access Trojan (RAT)
-
-**Exploit vs Payload**
+   ↓
 Vulnerability
-      ↓
-Exploit (How?)
-      ↓
-Payload (What happens?)
-      ↓
-System Compromise
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   ↓
+Risk
+   ↓
+Vulnerability Assessment
+   ↓
+Penetration Testing
+   ↓
+Report
+   ↓
+Remediation
+   ↓
+Secure System
+```
 
-**📘 Security Controls**
-Definition
-Security Controls are safeguards or countermeasures implemented to protect assets, reduce vulnerabilities, prevent attacks, and minimize security risks.
+---
 
-**Types of Security Controls**
-1. Administrative Controls
+# Quick Revision
 
-Administrative controls focus on policies, procedures, and people.
+```text
+Cybersecurity = Protect Digital Assets
 
-Examples
-📋 Security Policies
-🎓 Security Awareness Training
-📖 Standard Operating Procedures (SOPs)
-👥 Access Control Policies
-🔐 Password Policies
-📝 Incident Response Plan
-2. Physical Controls
+Threat = Potential Danger
 
-Physical controls protect buildings, equipment, and physical assets.
+Vulnerability = Weakness
 
-Examples
-🔒 Door Locks
-📹 CCTV Cameras
-👆 Biometric Authentication
-🚪 Security Guards
-🪪 ID Cards
-🚨 Alarm Systems
-3. Technical Controls
+Risk = Threat + Vulnerability
 
-Technical controls use hardware and software to protect IT systems.
+Asset = Anything Valuable
 
-Examples
-🔥 Firewall
-🛡️ IDS (Intrusion Detection System)
-🚫 IPS (Intrusion Prevention System)
-🦠 Antivirus
-🔐 Multi-Factor Authentication (MFA)
-🔒 Encryption
-🌐 VPN
-🧱 Web Application Firewall (WAF)
-📊 SIEM
+Exploit = Method to Exploit a Vulnerability
 
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-**📘 Types of Hackers**
-Hackers are classified based on their intent, authorization, and purpose. Some hackers help improve security, while others exploit systems for personal, financial, or political gain.
+Payload = Malicious Code Executed After Exploitation
 
-                 Types of Hackers
+Security Controls = Administrative + Physical + Technical
 
-                 White Hat
-                     ↓
-                  Gray Hat
-                     ↓
-                 Black Hat
-                     ↓
-               Script Kiddie
-                     ↓
-                 Hacktivist
-                     ↓
-                Nation-State
-                     ↓
-                   Insider
-1. White Hat Hacker
-Definition
-A White Hat Hacker is an authorized security professional who legally tests systems to identify and fix security vulnerabilities.
+Hackers =
+White Hat
+Gray Hat
+Black Hat
+Script Kiddie
+Hacktivist
+Nation-State
+Insider
 
-Examples
-Penetration Testers
-VAPT Engineers
-Security Consultants
-Bug Bounty Hunters (within program scope)
-Goal
-Find vulnerabilities
-Improve security
-Protect organizations
-Interview Definition
+VAPT = Vulnerability Assessment + Penetration Testing
 
-A White Hat Hacker is an authorized ethical hacker who identifies and reports security vulnerabilities to improve an organization's security posture.
+VA = Find Vulnerabilities
 
-2. Gray Hat Hacker
-Definition
-A Gray Hat Hacker accesses systems without permission, but usually does not have malicious intentions. They may report discovered vulnerabilities afterward.
+PT = Exploit Vulnerabilities
 
-Examples
-Finding a vulnerability without authorization
-Reporting the issue to the organization afterward
-Goal
-Discover vulnerabilities
-Gain recognition
-Improve security (sometimes)
+VAPT Lifecycle
 
-3. Black Hat Hacker
-Definition
-A Black Hat Hacker is a malicious attacker who illegally exploits vulnerabilities for financial gain, espionage, disruption, or other criminal activities.
+Planning
+Recon
+Scanning
+VA
+PT
+Post Exploitation
+Reporting
+Remediation
+Re-Testing
 
-Examples
-Ransomware attacks
-Data theft
-Credential theft
-Banking fraud
-Goal
-Financial gain
-Data theft
-System compromise
-Disruption
+Methodologies
 
-4. Script Kiddie
-Definition
-A Script Kiddie is an inexperienced attacker who uses existing hacking tools or scripts created by others instead of developing their own techniques.
-
-Examples
-Running automated exploit tools
-Using downloaded hacking scripts
-Launching simple DDoS tools
-Goal
-Fun
-Curiosity
-Recognition
-
-5. Hacktivist
-Definition
-A Hacktivist is a hacker who conducts cyber attacks to promote political, social, or ideological causes.
-
-Examples
-Website defacement
-Data leaks
-DDoS attacks against targeted organizations
-Goal
-Political activism
-Social awareness
-Ideological protest
-
-6. Nation-State Hacker
-Definition
-A Nation-State Hacker is a highly skilled attacker supported or sponsored by a government to conduct cyber espionage, intelligence gathering, or cyber warfare.
-
-Examples
-Cyber espionage
-Critical infrastructure attacks
-Intelligence collection
-Goal
-National security
-Intelligence gathering
-Cyber warfare
-
-7. Insider
-Definition
-An Insider is a trusted employee, contractor, or partner who intentionally or accidentally compromises an organization's security.
-
-Examples
-Employee leaking confidential data
-Misconfiguring security settings
-Accidentally exposing sensitive information
-Goal
-May be malicious or accidental
-Financial gain
-Revenge
-Human error
-
-
-
-
-
-
-
-
-
+OWASP WSTG
+PTES
+NIST SP 800-115
+OSSTMM
+MITRE ATT&CK
+```
